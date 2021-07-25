@@ -22,20 +22,42 @@
 }
 body {
     margin: 0px;
-    background-color: whitesmoke;
+    background-color: red;
   }
+.bodyImg{
+    position: relative;    
+}
+.bodyImg p{
+    color: #f7f2f2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}  
 .grid{
     display: flex;
     flex-wrap: wrap;
 }
 .origami{
+    border: 5px solid black;
     border-radius: 50px;
     background-color: white;
-    width: 370px;
+    width: 400px;
     height: 300px;
-    margin: 25px;
-    padding: 20px;
+    margin: 35px;
+    padding: 10px;
     text-align: justify;
     font-family: comic-sans;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
 }
 
